@@ -1,0 +1,512 @@
+@import url("https://fonts.googleapis.com/css2? family= Inconsolata:wght@200;300;400;500;600;700;800;900 & display=swap");
+body {
+  font-family: "Inconsolata", monospace;
+}
+
+header .jst li {
+  color: black;
+  text-align: center;
+  margin: 0px 5px;
+}
+header .jst li a {
+  color: black !important;
+  font-family: "Inconsolata", monospace;
+  font-size: 22px;
+}
+header .jst li a:hover {
+  color: gray !important;
+}
+header .icons {
+  display: flex;
+  font-size: 22px;
+  padding-top: 15px;
+  padding-left: 50px;
+}
+header .icons i {
+  padding-top: 5px;
+}
+header .icons i,
+header .icons p {
+  padding-right: 15px;
+  cursor: pointer;
+}
+header .icons i:hover,
+header .icons p:hover {
+  color: gray;
+}
+header .icons p {
+  color: gray;
+}
+header .categories {
+  padding: 3px 10px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: black;
+  color: white;
+}
+header .categories span {
+  display: block;
+  margin: 3px 0px;
+  background-color: white;
+  width: 10px;
+  height: 3px;
+  margin: 5px;
+}
+header .categories .span-group {
+  margin: 10px 5px;
+  cursor: pointer;
+}
+header .categories .sp_1 {
+  width: 20px;
+}
+header .categories .sp_2 {
+  width: 30px;
+}
+header .categories .sp_3 {
+  width: 25px;
+}
+header .categories.show .all-categoriya {
+  display: block;
+}
+header .mygr {
+  height: 0px;
+}
+header .flex {
+  display: flex;
+}
+header .search_btn {
+  background-color: black;
+  color: white;
+  font-size: 22px;
+  padding: 10px 10px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+header .categ {
+  display: flex;
+}
+header .categ h2 {
+  padding-top: 10px;
+}
+header .all-categoriya {
+  display: none;
+}
+header .all-categoriya p {
+  border-top: 1px solid gray;
+}
+header .all-categoriya p:hover {
+  color: gray;
+  cursor: pointer;
+}
+header .gro {
+  display: flex;
+}
+
+@media (max-width: 992px) {
+  #section1 .myslider {
+    display: none;
+  }
+}
+#section1 .container {
+  padding-right: 30px;
+}
+#section1 .container .myin {
+  padding-right: 50px;
+  padding-left: 10px;
+}
+#section1 .s {
+  display: flex;
+}
+#section1 .s .textbox {
+  margin-top: 100px;
+  margin-left: 100px;
+}
+#section1 .s .textbox .explore_now {
+  border: none;
+  background-color: transparent;
+  color: black;
+  font-weight: 1000;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+#section1 .s .textbox .explore_now:hover {
+  background-color: gray;
+  color: white;
+}
+#section1 .s .textbox p {
+  font-size: 32px;
+  color: gray;
+}
+#section1 .s .textbox h1 {
+  color: black;
+  font-size: 42px;
+}
+#section1 .myleft span {
+  background-color: black;
+  margin-right: 0px;
+}
+#section1 .myRight span {
+  background-color: black;
+  margin-left: 100px;
+}
+
+#section2 .container .bg_hanger {
+  background-color: #F8F8F8;
+  padding-bottom: 0;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 300px;
+  overflow: hidden;
+}
+#section2 .container .ledHanger {
+  width: 100%;
+  height: 350px;
+  background-image: url(./imgs/443.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#section2 .container .ledHanger h3,
+#section2 .container .ledHanger p {
+  font-weight: 700;
+}
+#section2 .container .ledHanger_2 {
+  width: 100%;
+  height: 350px;
+  background-image: url(./imgs/444.png);
+  background-repeat: no-repeat;
+  overflow: hidden;
+  position: relative;
+}
+#section2 .container .ledHanger_2 h3,
+#section2 .container .ledHanger_2 p {
+  position: absolute;
+  font-weight: 700;
+}
+#section2 .container .ledHanger_2 h3 {
+  bottom: 100px;
+  right: 0;
+}
+#section2 .container .ledHanger_2 p {
+  bottom: 60px;
+  right: 0;
+}
+
+#section3 .container .topl {
+  display: flex;
+}
+#section3 .container .vr {
+  width: 100%;
+  height: 500px;
+  padding: 10px;
+  margin: 10px;
+  background-image: url(./imgs/vr.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+#section3 .container .vr p,
+#section3 .container .vr h4 {
+  position: absolute;
+}
+#section3 .container .vr .m1 {
+  background-color: black;
+  color: white;
+  padding: 3px 5px;
+  border-radius: 5px;
+  top: 5px;
+}
+#section3 .container .vr .m2 {
+  left: 10px;
+  bottom: 35px;
+}
+#section3 .container .vr .m3 {
+  color: gray;
+  font-size: 18px;
+  bottom: 0px;
+}
+#section3 .container .vr .m4 {
+  bottom: 0px;
+  left: 80px;
+  font-weight: 700;
+  font-size: 18px;
+}
+#section3 .container .key {
+  width: 100%;
+  height: 250px;
+  background-image: url(./imgs/p_3-360x432.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#section3 .container .sp {
+  width: 100%;
+  height: 250px;
+  background-image: url(./imgs/bluetooth_speaker-360x432.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#section3 .container .sp .m2_1 {
+  font-size: 18px;
+  bottom: 10px;
+}
+#section3 .container .sp .m2_2 {
+  left: 10px;
+  bottom: -15px;
+  font-size: 12px;
+}
+#section3 .container .headp {
+  width: 100%;
+  height: 250px;
+  background-image: url(./imgs/p_5-111-360x432.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#section3 .container .headp .m2 {
+  left: 0px;
+  bottom: 21px;
+  font-size: 22px;
+}
+#section3 .container .headp .m4 {
+  bottom: -10px;
+  left: 0px;
+  font-weight: 700;
+  font-size: 18px;
+}
+#section3 .container .ult {
+  width: 100%;
+  height: 250px;
+  background-image: url(./imgs/ps.jpg);
+}
+#section3 .container .ult p,
+#section3 .container .ult h4 {
+  position: absolute;
+}
+#section3 .container .ult .m2 {
+  left: 0px;
+  bottom: 21px;
+  font-size: 22px;
+}
+#section3 .container .ult .m4 {
+  bottom: -10px;
+  left: 0px;
+  font-weight: 700;
+  font-size: 18px;
+}
+#section3 .container .bl {
+  width: 100%;
+  height: 300px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  background-image: url(./imgs/electronics_2-360x432.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+#section3 .container .bl p,
+#section3 .container .bl h4 {
+  position: absolute;
+}
+#section3 .container .bl .m1 {
+  background-color: black;
+  color: white;
+  padding: 3px 5px;
+  border-radius: 5px;
+  top: 5px;
+}
+#section3 .container .bl .m2 {
+  left: 10px;
+  bottom: 25px;
+}
+#section3 .container .bl .m4 {
+  bottom: -10px;
+  left: 10px;
+  font-weight: 700;
+  font-size: 18px;
+}
+#section3 .container .gad {
+  height: 300px;
+  padding: 10px;
+  margin: 10px;
+  background-image: url(./imgs/p_11-360x432.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#section3 .container .watchh {
+  height: 300px;
+  padding: 10px;
+  margin: 10px;
+  background-image: url(./imgs/p_4-1-360x432.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#section3 .container .card {
+  height: 300px;
+  padding: 10px;
+  margin: 10px;
+  background-image: url(./imgs/card-360x432.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#section4 .container {
+  background-color: #F8F8F8;
+  padding: 15px;
+}
+#section4 .container input {
+  margin: 20px 5px;
+  padding: 10px 3px;
+  width: 800px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(235, 230, 230);
+}
+@media (max-width: 992px) {
+  #section4 .container input {
+    width: 200px;
+  }
+}
+#section4 .container .sub {
+  padding: 8px 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  transition: 0.5s;
+}
+#section4 .container .sub:hover {
+  background-color: rgba(63, 63, 63, 0.74);
+}
+
+#section5 .container .london {
+  position: relative;
+  margin-bottom: 20px;
+}
+#section5 .container .london img {
+  width: 100%;
+  border-radius: 10px;
+}
+@media (max-width: 992px) {
+  #section5 .container .london .dec {
+    display: none;
+  }
+}
+#section5 .container .london .dec {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  padding: 0px;
+  background-color: white;
+  position: absolute;
+  z-index: 1000;
+  color: black;
+  left: 10px;
+  top: 115px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.5s;
+}
+#section5 .container .london .dec p {
+  padding: 0;
+  font-weight: 700;
+}
+#section5 .container .london .dec:hover {
+  background-color: blueviolet;
+  color: white;
+}
+
+@media (max-width: 992px) {
+   .ins {
+    margin: 0 auto;
+  }
+}
+#section6 .sd {
+  position: relative;
+}
+#section6 .sd img {
+  width: 135px;
+}
+#section6 .sd .ins {
+  width: 150px;
+  position: absolute;
+  top: 50%;
+  left: 43%;
+  display: flex;
+  background-color: white;
+  color: black;
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+#section6 .sd .ins:hover {
+  background-color: rgba(137, 43, 226, 0.589);
+  color: white;
+}
+#section6 .sd .ins span,
+#section6 .sd .ins i {
+  font-weight: 700;
+  text-align: center;
+  font-size: 22px;
+}
+#section6 .sd .ins i {
+  margin-right: 8px;
+}
+
+footer {
+  background-color: black;
+  padding: 20px;
+}
+footer p,
+footer i {
+  color: gray;
+  cursor: pointer;
+}
+footer p:hover,
+footer i:hover {
+  color: white;
+}
+footer h3 {
+  color: white;
+}
+footer img {
+  width: 80%;
+  display: block;
+}
+footer .sx {
+  padding: 10px 0;
+}
+footer .sx i,
+footer .sx p {
+  display: inline-block;
+  font-size: 18px;
+  padding-right: 5px;
+}
+footer .fg {
+  display: flex;
+  justify-content: space-between;
+}
+footer span {
+  color: white;
+}
+footer .sogical i {
+  margin-right: 8px;
+  font-size: 22px;
+}
+footer .sogical i:hover {
+  color: white;
+}
+footer .card i {
+  display: inline-block;
+  font-size: 22px;
+}/*# sourceMappingURL=style.css.map */
